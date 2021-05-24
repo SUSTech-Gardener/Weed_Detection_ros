@@ -27,7 +27,7 @@ If you need to use this package to detect crop and weeds. You need follow these 
 
 ```bash
 cd catkin_workspace/src
-git clone --recursive https://github.com/SUSTech-Gardener/darknet_ros.git
+git clone https://github.com/SUSTech-Gardener/Weed_Detection_ros.git
 cd ../
 ```
 
@@ -72,7 +72,7 @@ source devel/setup.bash
 roslaunch darknet_ros crop_weed_detection.launch
 ```
 
-Launch the camera node(e g: RealSense D435i ): 
+Launch the camera node(e g: RealSense [D435i](https://github.com/IntelRealSense/realsense-ros) ): 
 
 ```bash
 roslaunch realsense2_camera rs_camera.launch
